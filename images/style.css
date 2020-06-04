@@ -4,27 +4,27 @@
     padding: 0;
     margin: 0;
 }
-
+/* The background-color of this webpage is #d9dcd6 (off white) */
 body {
     background-color: #d9dcd6;
 }
-
+/* The top of this webpage has a header that has a background color of #2a607c (indigo) and a text-color of #ffffff (white). The font is sans-serif ('Trebuchet MS') */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* The main Header of this webpage has a font-size of 48px and sits on the upper-left-hand side of the page */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* The 'seo' in 'Horiseon' is colored #d9dcd6 (off-white) */
 #seo {
     color: #d9dcd6;
 }
-
+/* Within the header, there is a navigation bar in the upper-right-hand-corner. The text is 20px in size and the font is sans-serif ('Gill sans')   */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,7 +32,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* There are three links in the navagation bar in an un-ordered list. */
 ul {
     list-style-type: none;
 }
@@ -46,7 +46,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Below the header, there is an image of a man working with others that spans the width of the page and has a height of 800px */
 #main-image {
     height: 800px;
     width: 100%;
@@ -55,13 +55,13 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* The main container spans the width of 75% of the page and sits to the left of the page by 20px */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* There are 3 sections in the main container. Each section is 300px in height, separated by 20px of white space, has a background-color of #0072bb (bright blue) and the font is sans-serif ('Gill sans')   */
 .main-sections {
     margin-bottom: 20px;
     padding: 50px;
@@ -70,30 +70,30 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Each section in the main container has a unique image that is 200px in height */
 .main-sections img {
     max-height: 200px;
 }
-
+/* 2 of the images in the main containers sit on the left-hand side of the container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* All paragraphs are written in size 16px font */
 p {
     font-size: 16px;
 }
-
+/* The middle section in the main container's image sits on the right-hand side of the container */
 #float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Each section in the main container has a header. Each header is 36px in size */
 h2, h3, h4 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* There is a container that sits on the right-hand side of the page. Its width spans 20% of the page and its height spans 100% of the page. The background color is #2589bd (light blue) and the font is sans-serif ('Gill sans') */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,32 +104,32 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* The aside container has 3 sections. The text color is #ffffff (white) */
 .aside-sections {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Each section in the aside contianer has a header. Each header is centered, and has a font-size of 36px */
  h5 {
     margin-bottom: 10px;
     text-align: center; 
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Each section in the aside container has a unique image. Each image had a max-width of 150px */
 .aside-sections img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* There is a footer at the bottom of the webpage. It is centered, has a font-size of 30px and is written in a sans-serif font ('Trebuchet MS') */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* The writing within the fotter has a font-size of 20px */
 #footer-head {
     font-size: 20px;
 }
