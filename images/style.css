@@ -89,7 +89,7 @@ p {
     margin-left: 25px;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -110,9 +110,11 @@ aside {
     color: #ffffff;
 }
 
-.aside-sections h5 {
+ h5 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center; 
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .aside-sections img {
@@ -121,13 +123,13 @@ aside {
     max-width: 150px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+#footer-head {
     font-size: 20px;
 }
